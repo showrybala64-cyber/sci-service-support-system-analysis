@@ -22,7 +22,7 @@ SCI relied on informal task tracking ("pings"), manual FIFO inventory counting, 
 The system was logically modeled before implementation using structured analysis techniques.
 
 ### Context Diagram
-![Context Diagram](diagrams/context_diagram.jpg)
+![Context Diagram](diagrams/Context Diagram.jpg)
 
 The context diagram defines the system boundary and shows interactions with:
 
@@ -35,7 +35,7 @@ The context diagram defines the system boundary and shows interactions with:
 ---
 
 ### Level-0 Data Flow Diagram (DFD)
-![Level 0 DFD](diagrams/level0_dfd.jpg)
+![Level 0 DFD](diagrams/Level 0 DFD.jpg)
 
 Core processes defined:
 
@@ -55,7 +55,7 @@ Logical data stores modeled:
 ---
 
 ### Entity Relationship Diagram (ERD)
-![ERD](diagrams/erd_data_model.jpg)
+![ERD](diagrams/ERD Data Model.jpg)
 
 Key entities modeled:
 
