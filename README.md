@@ -44,7 +44,7 @@ Core processes defined:
 1. Intake & Schedule Service Request  
 2. Perform Service  
 3. Invoice & Notify  
-4. Manage Inventory & RMAs  
+4. Manage Inventory & RMAs  .
 
 Logical data stores modeled:
 
