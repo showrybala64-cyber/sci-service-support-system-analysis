@@ -1,19 +1,19 @@
 # SCI Computer Service Support System (CSSS)
 
-Enterprise-level service operations system designed using Systems Analysis & Design methodology to unify Service Requests, Technician Scheduling, Inventory Management, RMA Tracking, and Billing.
+Enterprise-level service operations system designed using structured Systems Analysis & Design methodology to unify Service Requests, Technician Scheduling, Inventory Management, RMA Tracking, and Billing.
 
 ---
 
 ## Business Problem
 
-SCI relied on informal task tracking ("pings"), manual FIFO inventory counting, and disconnected RMA and billing workflows. This caused:
+SCI relied on informal task tracking ("pings"), manual FIFO inventory counting, and disconnected RMA and billing workflows. This resulted in:
 
 - Missed or delayed service requests  
-- Poor visibility into technician workload  
+- Limited technician workload visibility  
 - Inventory overstocking and stockouts  
 - Manual reconciliation between field work and billing  
 - No structured SLA monitoring  
-- Limited operational reporting  
+- Minimal operational reporting  
 
 ---
 
@@ -22,7 +22,8 @@ SCI relied on informal task tracking ("pings"), manual FIFO inventory counting, 
 The system was logically modeled before implementation using structured analysis techniques.
 
 ### Context Diagram
-![Context Diagram](diagrams/Context Diagram.jpg)
+
+![Context Diagram](diagrams/context_diagram.jpg)
 
 The context diagram defines the system boundary and shows interactions with:
 
@@ -35,7 +36,8 @@ The context diagram defines the system boundary and shows interactions with:
 ---
 
 ### Level-0 Data Flow Diagram (DFD)
-![Level 0 DFD](diagrams/Level 0 DFD.jpg)
+
+![Level 0 DFD](diagrams/level0_dfd.jpg)
 
 Core processes defined:
 
@@ -55,7 +57,8 @@ Logical data stores modeled:
 ---
 
 ### Entity Relationship Diagram (ERD)
-![ERD](diagrams/ERD Data Model.jpg)
+
+![ERD](diagrams/erd_data_model.jpg)
 
 Key entities modeled:
 
@@ -107,7 +110,7 @@ Full documentation is available in the `/docs` folder.
 ## Skills Demonstrated
 
 - Systems Analysis & Design (SDLC methodology)  
-- Business Process Modeling (Gane-Sarson DFD)  
+- Business Process Modeling (Gane-Sarson DFD modeling)  
 - Context and Level-0 decomposition  
 - Relational Data Modeling and Cardinality Design  
 - Requirements Engineering  
